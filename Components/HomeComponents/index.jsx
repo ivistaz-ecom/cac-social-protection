@@ -8,7 +8,9 @@ import OurApproach from './OurApproach'
 import PartnerWithUs from './PartnerWithUs'
 import Stakeholders from './Stakeholders'
 import GetInvolved from './GetInvolved'
-
+import ExploreMore from './ExploreMore'
+import MediaArticle from './MediaArticle'
+import Footer from './Footer'
 
 const index = () => {
   return (
@@ -22,6 +24,9 @@ const index = () => {
       <PartnerWithUs />
       <Stakeholders />
       <GetInvolved />
+      <ExploreMore />
+      <MediaArticle />
+      <Footer />
     </div>
   )
 }
