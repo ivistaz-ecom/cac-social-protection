@@ -21,7 +21,7 @@ const ExploreMore = () => {
     <p className="text-4xl text-custom-blue text-center mb-4 font-semibold py-4">
     Explore More 
   </p>
-    <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-4 md:gap-0 container mx-auto md:px-52 p-4">
+    <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-4 container mx-auto md:px-52 p-4">
          
       {videos.map((video, index) => (
         <div key={index} className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">

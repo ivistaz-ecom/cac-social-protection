@@ -21,7 +21,7 @@ const MediaArticle = () => {
       <p className="text-4xl text-white text-center mb-4 font-semibold py-4">
         Media Article 
       </p>
-      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-4 md:gap-0 container mx-auto md:px-52 px-4">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between gap-4  container mx-auto md:px-52 px-4">
         {articles.map((article, index) => (
           <div
             key={index}

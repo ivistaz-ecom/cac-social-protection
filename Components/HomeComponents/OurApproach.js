@@ -5,7 +5,7 @@ const OurApproach = () => {
     <>
       <div className="relative">
         {/* Dotted image positioned behind the entire container */}
-        <div className="absolute inset-0 z-0 flex justify-center items-center mx-auto">
+        <div className="md:flex hidden absolute inset-0 z-0 justify-center items-center mx-auto">
           <img
             src="images/dotted-line.svg"
             className="w-[500px] md:w-[1100px] h-full"

@@ -29,7 +29,7 @@ const Stakeholders = () => {
             />
           </div>
 
-          <div className="lg:col-span-6 bg-[url(/images/launch-of-setu-bg-img-2.png)] bg-contain bg-no-repeat bg-center h-[500px] w-full">
+          <div className="lg:col-span-6 bg-[url(/images/launch-of-setu-bg-img-2.png)] bg-left bg-contain bg-no-repeat h-[500px] w-full">
             <div className="flex items-center md:p-8 p-4 rounded-md h-full">
               <div className="md:p-6 rounded-md flex flex-col">
                 <h2 className="text-3xl text-custom-blue font-semibold mb-4">
