@@ -7,6 +7,8 @@ import WhatWeDo from './WhatWeDo'
 import OurApproach from './OurApproach'
 import PartnerWithUs from './PartnerWithUs'
 import Stakeholders from './Stakeholders'
+import GetInvolved from './GetInvolved'
+
 
 const index = () => {
   return (
@@ -19,6 +21,7 @@ const index = () => {
       <OurApproach />
       <PartnerWithUs />
       <Stakeholders />
+      <GetInvolved />
     </div>
   )
 }

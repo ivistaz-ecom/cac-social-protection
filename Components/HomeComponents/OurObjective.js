@@ -9,7 +9,7 @@ const objectivesData = [
   {
     title: "Responsive systems",
     content:
-      "Enhancing awareness & capacity building, and improving grievance redressal to develop adaptive processes, ensuring broad access and effective management. Establishing  mechanisms to boost accountability and continuous improvement in these systems.",
+      "Enhancing awareness & capacity building, and improving grievance redressal to develop adaptive processes, ensuring broad access and effective management. Establishing mechanisms to boost accountability and continuous improvement in these systems.",
   },
   {
     title: "Scaling innovations and dissemination of learnings & knowledge",
@@ -25,27 +25,27 @@ const objectivesData = [
 
 const Objectives = () => {
   return (
-    <div className="relative h-screen">
+    <div className="relative">
       {/* Background Image */}
       <div className="absolute w-full h-full bg-[url('/images/our-object.jpeg')] bg-no-repeat bg-center bg-cover"></div>
 
       {/* Text Content */}
-      <div className="relative z-10 flex items-center justify-end h-full pr-4 md:pr-10">
-        <div className="w-full md:w-1/2 bg-opacity-50 p-4 md:p-8 rounded-lg text-white">
-          <h2 className="text-yellow-500 text-4xl font-bold mb-4 md:mb-6">
+      <div className="relative z-10 flex items-center justify-center md:justify-end h-full p-4 md:pr-10">
+        <div className="w-full md:w-1/2 p-4 md:p-8 text-white ">
+          <h2 className="text-custom-yellow text-3xl sm:text-4xl font-bold mb-4 md:mb-6">
             Our Objectives
           </h2>
-          <p className="text-gray-200 mb-2 md:mb-4">
+          <p className="text-gray-200 text-sm sm:text-base mb-2 md:mb-4">
             Here is what we aim to achieve together.
           </p>
 
           <div className="space-y-4 md:space-y-6">
             {objectivesData.map((objective, index) => (
               <div key={index}>
-                <h3 className="bg-yellow-500 text-black p-2 md:p-3 text-lg md:text-xl font-bold mb-1 md:mb-2">
+                <h3 className="bg-custom-yellow text-black p-2 md:p-3 text-base sm:text-lg md:text-xl font-bold mb-1 md:mb-2">
                   {objective.title}
                 </h3>
-                <p className="text-gray-200 text-sm md:text-base mt-2">
+                <p className="text-gray-200 text-xs sm:text-sm md:text-base mt-2">
                   {objective.content}
                 </p>
               </div>
