@@ -1,24 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { partnerContentItems } from "../../utils/data";
 
 const PartnerWithUs = () => {
-  // Array of title and content pairs
-  const contentItems = [
-    {
-      title: "Be Part of a National Coalition",
-      text: "Join us to expand social protection by developing adaptive processes that enhance access to benefits for all eligible citizens, transforming lives and building a more resilient nation.",
-    },
-    {
-      title: "Drive Innovation",
-      text: "Help scale tech-powered solutions that make social protection faster, smarter, and more equitable for those who need it most.",
-    },
-    {
-      title: "Policy and Practice Shaping Contributions",
-      text: "Contribute in strengthening key policies and programmes at the central and state levels to accelerate access to social protection benefits for those who are eligible.",
-    },
-  ];
-
   return (
     <>
       <div className="relative h-full">
@@ -29,7 +14,7 @@ const PartnerWithUs = () => {
               Why Partner with Us
             </h2>
 
-            {contentItems.map((item, index) => (
+            {partnerContentItems.map((item, index) => (
               <div key={index} className="md:px-6 p-2 rounded-md">
                 <h3 className="text-lg md:text-xl font-semibold p-3 bg-custom-blue text-white inline-block">
                   {item.title}

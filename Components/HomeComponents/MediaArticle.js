@@ -1,27 +1,15 @@
+// components/MediaArticle.js
 import React from "react";
-import Link from "next/link"; // Ensure you import Link from next/link
+import Link from "next/link";
+import { articles } from "../../utils/data";
 
 const MediaArticle = () => {
-  const articles = [
-    {
-      articleImg: "/images/article-img.png",
-      imageTitle: "Ayush Ministry to launch technical brief on AI in traditional medicine by Oct",
-      articleUrl: "https://government.economictimes.indiatimes.com/amp/news/healthcare/ayush-ministry-to-launch-technical-brief-on-ai-in-traditional-medicine-by-oct/113339295?nt"
-    },
-    {
-      articleImg: "/images/article-2-img.png",
-      imageTitle: "Catalyst Management Services (CMS) Partners with Piramal Foundation to Advance the Ayushman Digital Bharat Mission",
-      articleUrl: "https://aninews.in/news/business/catalyst-management-services-cms-partners-with-piramal-foundation-to-advance-the-ayushman-digital-bharat-mission20240913164203/"
-    },
-  ];
-
   return (
-    <>
-    <div className=" py-10 bg-custom-blue">
+    <div className="py-10 bg-custom-blue">
       <p className="text-4xl text-white text-center mb-4 font-semibold py-4">
         Media Article 
       </p>
-      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between gap-4  container mx-auto md:px-52 px-4">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between gap-4 container mx-auto md:px-52 px-4">
         {articles.map((article, index) => (
           <div
             key={index}
@@ -52,8 +40,7 @@ const MediaArticle = () => {
           </div>
         ))}
       </div>
-      </div>
-    </>
+    </div>
   );
 };
 

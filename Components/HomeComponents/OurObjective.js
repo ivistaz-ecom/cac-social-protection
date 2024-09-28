@@ -1,27 +1,5 @@
 import React from "react";
-
-const objectivesData = [
-  {
-    title: "Universal coverage",
-    content:
-      "To support the implementation of comprehensive social protection systems across India, ensuring every citizen is covered by at least one form of social security.",
-  },
-  {
-    title: "Responsive systems",
-    content:
-      "Enhancing awareness & capacity building, and improving grievance redressal to develop adaptive processes, ensuring broad access and effective management. Establishing mechanisms to boost accountability and continuous improvement in these systems.",
-  },
-  {
-    title: "Scaling innovations and dissemination of learnings & knowledge",
-    content:
-      "Promote social and IT innovations across states and sectors, using technology to efficiently deliver services at scale. Develop a comprehensive M&E framework to track progress, assess outcomes, and provide insights for informed decision-making and policy development.",
-  },
-  {
-    title: "Sustained financing",
-    content:
-      "To develop and endorse sustainable, equitable, and innovative financing mechanisms that ensure long-term funding for comprehensive social protection systems.",
-  },
-];
+import { objectivesData } from "../../utils/data";
 
 const Objectives = () => {
   return (
