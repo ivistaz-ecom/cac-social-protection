@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { videos } from '../../utils/data'
+import Image from 'next/image'; // Import Image from next/image
+import { videos } from '../../utils/data';
 
 const ExploreMore = () => {
   return (
@@ -11,11 +12,13 @@ const ExploreMore = () => {
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-4 container mx-auto md:px-52 p-4">
         {videos.map((video, index) => (
           <div key={index} className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-            <div className="relative">
-              <img
-                className="w-full"
+            <div className="relative w-full h-64"> {/* Add a fixed height to the container */}
+              <Image
+                className="object-cover" // Ensures the image covers the div properly
                 src={video.thumbnailUrl}
                 alt="Video thumbnail"
+                layout="fill" // This makes the image fill the parent container
+                objectFit="cover" // Ensures proper scaling of the image
               />
               <a href={video.videoUrl} target="_blank" rel="noopener noreferrer">
                 <div className="absolute inset-0 flex justify-center items-center">

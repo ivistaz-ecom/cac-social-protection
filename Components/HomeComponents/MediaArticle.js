@@ -1,6 +1,6 @@
-// components/MediaArticle.js
 import React from "react";
 import Link from "next/link";
+import Image from "next/image"; // Import the Next.js Image component
 import { articles } from "../../utils/data";
 
 const MediaArticle = () => {
@@ -15,11 +15,13 @@ const MediaArticle = () => {
             key={index}
             className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden"
           >
-            <div className="relative">
-              <img
-                className="w-[500px] h-[250px]"
-                src={article.articleImg}
-                alt={article.imageTitle}
+            <div className="relative md:w-[500px] h-[250px]"> {/* Set a fixed width and height */}
+              <Image
+                src={article.articleImg}  // The image source
+                alt={article.imageTitle}  // Alt text for accessibility
+                layout="fill"  // Make the image fill the container
+                objectFit="cover"  // Ensure the image covers the area appropriately
+                className="w-full h-full"
               />
             </div>
             <div className="p-4">

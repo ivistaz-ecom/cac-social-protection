@@ -1,15 +1,34 @@
 import React from "react";
 import { objectivesData } from "../../utils/data";
+import Image from "next/image";
 
 const Objectives = () => {
   return (
-    <div className="relative">
+    <div className="relative h-full">
+      {/* yellow image*/}
+      <div className="absolute -top-20 left-0 z-10 hidden md:block">
+        <Image
+          src="/images/yellow-circle.svg"
+          alt="Our Objectives Background"
+          width={80} 
+          height={80} 
+        />
+      </div>
+
       {/* Background Image */}
-      <div className="absolute w-full h-full bg-[url('/images/our-object.jpeg')] bg-no-repeat bg-center bg-cover"></div>
+      <div className="absolute inset-0 w-full h-full">
+        <Image
+          src="/images/our-object.jpeg"
+          alt="Our Objectives Background"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
 
       {/* Text Content */}
       <div className="relative z-10 flex items-center justify-center md:justify-end h-full p-4 md:pr-10">
-        <div className="w-full md:w-1/2 p-4 md:p-8 text-white ">
+        <div className="w-full md:w-1/2 p-4 md:p-8 text-white">
           <h2 className="text-custom-yellow text-3xl sm:text-4xl font-bold mb-4 md:mb-6">
             Our Objectives
           </h2>
@@ -30,6 +49,14 @@ const Objectives = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="absolute -bottom-28 right-0 z-10 hidden md:block">
+        <Image
+          src="/images/blue-circle.svg"
+          alt="Our Objectives Background"
+          width={80} 
+          height={80} 
+        />
       </div>
     </div>
   );

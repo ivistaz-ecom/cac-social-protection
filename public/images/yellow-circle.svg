@@ -1,0 +1,15 @@
+<svg width="132" height="264" viewBox="0 0 132 264" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path style="mix-blend-mode:color-burn" d="M106.108 156.807C120.008 98.005 83.6083 39.0686 24.8066 25.1684C-33.995 11.2683 -92.9315 47.6682 -106.832 106.47C-120.732 165.272 -84.3318 224.208 -25.5302 238.108C33.2715 252.008 92.2079 215.608 106.108 156.807Z" fill="url(#paint0_radial_32_1020)"/>
+<path d="M-0.241806 180.009C43.8681 180.009 79.6263 144.251 79.6263 100.141C79.6263 56.031 43.8681 20.2728 -0.241806 20.2728C-44.3517 20.2728 -80.1099 56.031 -80.1099 100.141C-80.1099 144.251 -44.3517 180.009 -0.241806 180.009Z" fill="url(#paint1_linear_32_1020)"/>
+<defs>
+<radialGradient id="paint0_radial_32_1020" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-0.216634 131.54) scale(109.404)">
+<stop offset="0.2" stop-color="#B3B3B3"/>
+<stop offset="0.7" stop-color="#E7E7E7"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<linearGradient id="paint1_linear_32_1020" x1="-0.241805" y1="161.926" x2="-0.241805" y2="28.7117" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FDD800"/>
+<stop offset="1" stop-color="#FDD800"/>
+</linearGradient>
+</defs>
+</svg>
