@@ -18,21 +18,22 @@ const WhatWeDo = () => {
     <>
       {/* What We Do  */}
 
-      <div className="hidden lg:flex flex-col items-center justify-center py-10 px-4">
+      <div className="lg:flex flex-col items-center justify-center py-10 px-4">
         <p className="text-4xl text-custom-blue text-center mb-4 font-semibold">
           What We Do
         </p>
-        <p className="text-xl text-center mb-4">
+        <p className="text-xl text-center md:mb-4">
           Here is how we make it all come together
         </p>
-        <Image
-          src="/images/what-we-do.svg"
-          alt="Social Protection"
-          width={1300}
-          height={400} // Provide appropriate height to maintain aspect ratio
-          className="w-[100] h-auto"
-          
-        />
+        <div className="hidden lg:block">
+          <Image
+            src="/images/what-we-do.svg"
+            alt="Social Protection"
+            width={1300}
+            height={400} // Provide appropriate height to maintain aspect ratio
+            className="w-full h-auto"
+          />
+        </div>
       </div>
 
       <div className="block md:hidden">
@@ -46,7 +47,7 @@ const WhatWeDo = () => {
           showArrows={false}
           interval={3000}
           transitionTime={1500}
-          className="py-10 mx-10"
+          className="pb-10 mx-10"
         >
           {images.map((image, index) => (
             <div key={index}>
