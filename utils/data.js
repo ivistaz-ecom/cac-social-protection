@@ -15,12 +15,12 @@ export const videos = [
 
   export const articles = [
     {
-      articleImg: "/images/article-img.png",
+      articleImg: "/images/article-img.svg",
       imageTitle: "Catalyst Group and Piramal Foundation Released a Video Knowledge Asset on Strengthening India's ESI Scheme",
       articleUrl: "https://www.aninews.in/news/business/catalyst-group-and-piramal-foundation-released-a-video-knowledge-asset-on-strengthening-indias-esi-scheme20240916130447/",
     },
     {
-      articleImg: "/images/article-2-img.png",
+      articleImg: "/images/article-img.svg",
       imageTitle: "Catalyst Management Services (CMS) Partners with Piramal Foundation to Advance the Ayushman Digital Bharat Mission",
       articleUrl: "https://aninews.in/news/business/catalyst-management-services-cms-partners-with-piramal-foundation-to-advance-the-ayushman-digital-bharat-mission20240913164203/",
     },

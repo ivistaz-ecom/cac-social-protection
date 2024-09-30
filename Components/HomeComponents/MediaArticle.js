@@ -21,7 +21,7 @@ const MediaArticle = () => {
                 alt={article.imageTitle} 
                 layout="fill"  
                 objectFit="cover"  
-                className="w-full h-full"
+                className="w-full h-full "
               />
             </div>
             <div className="p-4 flex flex-col justify-between h-52">

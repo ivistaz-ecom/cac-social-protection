@@ -11,7 +11,8 @@ function NextSeo({ title, description, path, metaImage }) {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="robots" content="index, follow" />
             <link rel="icon" href="/images/cac_favicon-150x150.png" />
-            <link rel="canonical" href="" />
+            <link rel="canonical" href="https://social-protection.communityactioncollab.org/" />
+            {/* <link rel="canonical" href="" /> */}
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="website" />
             <meta property="og:title" content={title} />
@@ -19,7 +20,6 @@ function NextSeo({ title, description, path, metaImage }) {
             <meta property="og:url" content={path} />
             <meta property="og:site_name" content={title} />
             <meta property="og:image" content={metaImage} />
-            <link rel="canonical" href="https://social-protection.communityactioncollab.org/" />
             <meta name="twitter:card" content="summary_large_image" />
 
             <script
