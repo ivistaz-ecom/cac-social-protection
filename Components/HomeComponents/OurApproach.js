@@ -26,7 +26,7 @@ const OurApproach = () => {
               <Image
                 src="/images/connect-1.svg"
                 alt="Connect"
-                className="w-20 h-20 mb-2"
+                className="w-20 h-20 mb-2 bg-white"
                 layout="intrinsic"
                 width={64} 
                 height={64} 
@@ -40,7 +40,7 @@ const OurApproach = () => {
               <Image
                 src="/images/art-1.svg"
                 alt="Act"
-                className="w-20 h-20 mb-2"
+                className="w-20 h-20 mb-2 bg-white"
                 layout="intrinsic"
                 width={64}     
                 height={64}  
@@ -54,7 +54,7 @@ const OurApproach = () => {
               <Image
                 src="/images/solve-1.svg"
                 alt="Solve"
-                className="w-20 h-20 mb-2"
+                className="w-20 h-20 mb-2 bg-white"
                 layout="intrinsic"
                 width={64}     
                 height={64}  
@@ -68,7 +68,7 @@ const OurApproach = () => {
               <Image
                 src="/images/learn-1.svg"
                 alt="Learn"
-                className="w-20 h-20 mb-2"
+                className="w-20 h-20 mb-2 bg-white"
                 layout="intrinsic"
                 width={64}     
                 height={64}  

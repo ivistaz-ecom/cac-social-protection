@@ -7,13 +7,14 @@ const Header = () => {
     <header className="flex justify-between items-center p-4 bg-white shadow-lg md:px-20 z-10 relative"> {/* Increased shadow for more visibility */}
       {/* Logo Section */}
       <div className="flex items-center">
+        <Link href="https://communityactioncollab.org/">
         <Image 
-          src="/images/cac-logo.svg" // Replace with the actual path to your logo image
+          src="/images/cac-logo.svg" 
           alt="Logo"
-          className="h-10" // Adjust height as needed
-          width={150} // Specify the width based on your logo's dimensions
-          height={40} // Specify the height based on your logo's dimensions
-        />
+          className="h-10" 
+          width={150} 
+          height={40} 
+        /></Link>
       </div>
 
       {/* Join Now Button */}
