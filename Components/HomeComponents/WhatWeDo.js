@@ -10,7 +10,7 @@ const WhatWeDo = () => {
     "/images/what-we-do-mobile-img-1.svg",
     "/images/what-we-do-mobile-img-2.svg",
     "/images/what-we-do-mobile-img-3.svg",
-    "/images/what-we-do-mobile-img-4.svg",
+    "/images/what-we-do-mobile-img-04.svg",
     "/images/what-we-do-mobile-img-5.svg",
   ];
 
@@ -27,7 +27,7 @@ const WhatWeDo = () => {
         </p>
         <div className="hidden lg:block">
           <Image
-            src="/images/what-we-do.svg"
+            src="/images/what-we-do-1.svg"
             alt="Social Protection"
             width={1300}
             height={400} // Provide appropriate height to maintain aspect ratio

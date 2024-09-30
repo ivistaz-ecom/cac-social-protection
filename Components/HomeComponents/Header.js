@@ -19,7 +19,8 @@ const Header = () => {
       {/* Join Now Button */}
       <div>
         <Link 
-          href="#" 
+          href="https://registration.communityactioncollab.org/partner-sign-up/new" 
+          target='_blank'
           className="bg-custom-yellow text-black font-semibold py-2 px-4 hover:bg-yellow-500 transition duration-200">
           Join Now
         </Link>

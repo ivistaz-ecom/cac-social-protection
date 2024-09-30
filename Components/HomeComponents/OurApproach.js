@@ -10,7 +10,7 @@ const OurApproach = () => {
           <Image
             src="/images/dotted-line.svg"
             alt="Background Dotted Line"
-            className="w-[500px] md:w-[1100px] h-full"
+            className="w-[500px] md:w-[1000px] lg:w-[1000px] h-full"
             layout="intrinsic"
             width={1100}  
             height={500} 
