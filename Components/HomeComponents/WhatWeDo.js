@@ -19,12 +19,12 @@ const WhatWeDo = () => {
       {/* What We Do  */}
 
       <div className="lg:flex flex-col items-center justify-center py-10 px-4">
-        <p className="text-4xl text-custom-blue text-center mb-4 font-semibold">
+        <h3 className="text-4xl text-custom-blue text-center mb-4 font-semibold">
           What We Do
-        </p>
-        <p className="text-xl text-center md:mb-4">
+        </h3>
+        <div className="text-xl text-center md:mb-4">
           Here is how we make it all come together
-        </p>
+        </div>
         <div className="hidden lg:block">
           <Image
             src="/images/what-we-do-1.svg"

@@ -5,20 +5,20 @@ import Image from "next/image";
 const HomeBanner = () => {
   return (
     <div className="relative flex flex-col md:flex-row items-center bg-white p-8 rounded-lg">
-      {/* Background Blue & Yellow Shape - Hidden on mobile */}
+      
       <div className="absolute inset-0 z-0 hidden md:block">
         <Image
           src="/images/setu-bg-1.png"
           alt="Background Shape 1"
           className="absolute top-0 left-0 w-1/3 h-full"
-          width={500} // Adjust width according to your image dimensions
+          width={500} 
           height={600} 
         />
         <Image
           src="/images/setu-bg-2.png"
           alt="Background Shape 2"
           className="absolute bottom-52 right-0 w-1/3 h-full"
-          width={500} // Adjust width according to your image dimensions
+          width={500} 
           height={600} 
         />
       </div>
@@ -29,12 +29,12 @@ const HomeBanner = () => {
           src="/images/grandma-image.svg"
           alt="Grandma"
           className="object-cover max-h-[600px]"
-          width={350} // Adjust width according to your image dimensions
-          height={400} // Adjust height according to your image dimensions
+          width={350} 
+          height={400}
         />
       </div>
 
-      {/* Text & Button Content */}
+      {/* Text & Content */}
       <div className="relative z-10 md:w-1/3 w-full text-center md:text-left mt-8 md:mt-0 md:mr-60">
         <h2 className="text-black italic text-6xl font-bold mb-5">
           <span>&apos;</span>
@@ -42,10 +42,10 @@ const HomeBanner = () => {
           <span>&apos;</span>
         </h2>
 
-        <h3 className="text-3xl font text-custom-blue mb-4">
+        <h1 className="text-3xl font text-custom-blue mb-4">
           Leveraging Social Protection for a Resilient Bharat
-        </h3>
-        <p className="text-gray-700 mb-6 lato-regular">
+        </h1>
+        <p className="text-black mb-6">
           Setu unites organisations and stakeholders to enhance social
           protection systems across India, focusing on universal social security
           for all, especially the vulnerable—formal and informal workers, women,

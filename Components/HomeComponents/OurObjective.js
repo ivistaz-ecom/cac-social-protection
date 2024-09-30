@@ -6,12 +6,12 @@ const Objectives = () => {
   return (
     <div className="relative h-full">
       {/* yellow image*/}
-      <div className="absolute -top-20 left-0 z-10 hidden md:block">
+      <div className="absolute -top-16 left-0 z-10 hidden md:block">
         <Image
-          src="/images/yellow-circle.svg"
+          src="/images/yellow-circle-img.svg"
           alt="Our Objectives Background"
-          width={80} 
-          height={80} 
+          width={70} 
+          height={70} 
         />
       </div>
 
@@ -50,9 +50,9 @@ const Objectives = () => {
           </div>
         </div>
       </div>
-      <div className="absolute -bottom-28 right-0 z-10 hidden md:block">
+      <div className="absolute -bottom-20 right-0 z-10 hidden md:block">
         <Image
-          src="/images/blue-circle.svg"
+          src="/images/blue-circle-img.svg"
           alt="Our Objectives Background"
           width={80} 
           height={80} 

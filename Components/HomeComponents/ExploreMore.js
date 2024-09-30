@@ -6,9 +6,9 @@ import { videos } from '../../utils/data';
 const ExploreMore = () => {
   return (
     <div className='py-10 flex flex-col justify-center items-center'>
-      <p className="text-4xl text-custom-blue text-center mb-4 font-semibold py-4">
+      <h3 className="text-4xl text-custom-blue text-center mb-4 font-semibold py-4">
         Explore More 
-      </p>
+      </h3>
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-8 p-4">
         {videos.map((video, index) => (
           <div key={index} className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
@@ -35,7 +35,7 @@ const ExploreMore = () => {
               </a>
             </div>
             <div className="p-4">
-              <h3 className="text-gray-900 font-bold text-xl">{video.videoTitle}</h3>
+              <h3 className="text-gray-900 font-bold text-custom-blue text-xl">{video.videoTitle}</h3>
               <Link
                 href={video.videoUrl}
                 target="_blank"

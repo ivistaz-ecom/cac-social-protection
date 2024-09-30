@@ -16,8 +16,8 @@ export const videos = [
   export const articles = [
     {
       articleImg: "/images/article-img.png",
-      imageTitle: "Ayush Ministry to launch technical brief on AI in traditional medicine by Oct",
-      articleUrl: "https://government.economictimes.indiatimes.com/amp/news/healthcare/ayush-ministry-to-launch-technical-brief-on-ai-in-traditional-medicine-by-oct/113339295?nt",
+      imageTitle: "Catalyst Group and Piramal Foundation Released a Video Knowledge Asset on Strengthening India's ESI Scheme",
+      articleUrl: "https://www.aninews.in/news/business/catalyst-group-and-piramal-foundation-released-a-video-knowledge-asset-on-strengthening-indias-esi-scheme20240916130447/",
     },
     {
       articleImg: "/images/article-2-img.png",
@@ -66,3 +66,29 @@ export const videos = [
     },
   ];
   
+  export const approachData = [
+    {
+      src: "/images/connect-1.svg",
+      alt: "Connect",
+      title: "Connect",
+      description: "Foster collaborations between diverse stakeholders",
+    },
+    {
+      src: "/images/art-1.svg",
+      alt: "Act",
+      title: "Act",
+      description: "Scale and support member programme and coalition initiatives",
+    },
+    {
+      src: "/images/solve-1.svg",
+      alt: "Solve",
+      title: "Solve",
+      description: "Consolidate and disseminate successful innovations",
+    },
+    {
+      src: "/images/learn-1.svg",
+      alt: "Learn",
+      title: "Learn",
+      description: "Facilitate knowledge sharing",
+    },
+  ];

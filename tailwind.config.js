@@ -13,7 +13,7 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        leckerli: ['"Leckerli One"', 'cursive'], 
+        sans: ['Lato', 'sans-serif'],
       },
     },
   },

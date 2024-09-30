@@ -5,12 +5,12 @@ const Stakeholders = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center md:w-[100vh] px-4 container mx-auto">
-        <p className="text-4xl text-custom-blue text-center mb-4 font-semibold">
+        <div className="text-4xl text-custom-blue text-center mb-4 font-semibold">
           Value For All Stakeholders
-        </p>
-        <p className="text-xl text-center mb-4">
+        </div>
+        <div className="text-xl text-center mb-4">
         Here are some of the ways the Setu Coalition will add value to our partners
-        </p>
+        </div>
 
         <div className="w-auto">
           <Image
