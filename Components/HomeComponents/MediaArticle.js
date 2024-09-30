@@ -5,11 +5,11 @@ import { articles } from "../../utils/data";
 
 const MediaArticle = () => {
   return (
-    <div className="py-10 bg-custom-blue">
+    <div className="py-10 bg-custom-blue flex flex-col justify-center items-center">
       <p className="text-4xl text-white text-center mb-4 font-semibold py-4">
         Media Article 
       </p>
-      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between gap-4 container mx-auto md:px-52 px-4">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-8 justify-center  px-4">
         {articles.map((article, index) => (
           <div
             key={index}
@@ -24,7 +24,7 @@ const MediaArticle = () => {
                 className="w-full h-full"
               />
             </div>
-            <div className="p-4">
+            <div className="p-4 flex flex-col justify-between h-52">
               <h3 className="text-gray-900 font-bold text-xl">
                 {article.imageTitle}
               </h3>

@@ -19,6 +19,7 @@ function NextSeo({ title, description, path, metaImage }) {
             <meta property="og:url" content={path} />
             <meta property="og:site_name" content={title} />
             <meta property="og:image" content={metaImage} />
+            <link rel="canonical" href="https://social-protection.communityactioncollab.org/" />
             <meta name="twitter:card" content="summary_large_image" />
 
             <script
@@ -27,7 +28,7 @@ function NextSeo({ title, description, path, metaImage }) {
                     __html: JSON.stringify({
                         "@context": "https://schema.org/",
                         "@type": "WebSite",
-                        "name": "thezurihotels",
+                        "name": "social protection",
                         "url": path,
                         "potentialAction": {
                             "@type": "SearchAction",

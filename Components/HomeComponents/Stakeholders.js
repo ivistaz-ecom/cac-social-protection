@@ -9,7 +9,7 @@ const Stakeholders = () => {
           Value For All Stakeholders
         </p>
         <p className="text-xl text-center mb-4">
-          Here are some of the ways we add value to our partners
+        Here are some of the ways the Setu Coalition will add value to our partners
         </p>
 
         <div className="w-auto">

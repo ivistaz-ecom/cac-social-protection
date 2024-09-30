@@ -19,6 +19,7 @@ const index = () => {
   const description =
     "Description: We aim to build robust, accessible social protection systems for vulnerable communities and foster inclusive growth. Be part of this transformative journey.";
   const metaImage = "";
+  // const canonical= "https://social-protection.communityactioncollab.org/";
 
   return (
     <>
@@ -26,6 +27,7 @@ const index = () => {
         title={title}
         description={description}
         metaImage={metaImage}
+        // canonical={canonical}
       />
       <div className="bg-white">
         <Header />

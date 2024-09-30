@@ -34,19 +34,25 @@ const GetInvolved = () => {
             social progress.
           </p>
           <p className="py-4 text-lg font-light text-white/70">
-            To learn how you can be part of this national effort, contact us at:{""}
-            <span className="bg-custom-yellow md:p-2 p-1 text-black mx-2">
+            To learn how you can be part of this national effort, contact us at:{" "}
+            <a
+              href="mailto:setu.connect@Catalysts.org"
+              className="bg-custom-yellow md:p-2 p-1 text-black mx-2"
+            >
               setu.connect@Catalysts.org
-            </span>
+            </a>
           </p>
 
           {/* Contact Person */}
           <p className="pt-4 text-lg font-light text-white/70">
             Connect with Priyamvada Tiwari, Associate Director-Platforms & Policy
-            at{""}
-            <span className="bg-custom-yellow md:p-2 p-1 text-black mx-2">
+            at{" "}
+            <a
+              href="mailto:priyamvada@Catalysts.org"
+              className="bg-custom-yellow md:p-2 p-1 text-black mx-2"
+            >
               priyamvada@Catalysts.org
-            </span>
+            </a>
           </p>
         </div>
       </div>

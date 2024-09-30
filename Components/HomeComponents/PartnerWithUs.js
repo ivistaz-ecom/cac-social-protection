@@ -50,8 +50,9 @@ const PartnerWithUs = () => {
           lasting difference.
         </p>
         <Link
-          href={""}
+          href="https://registration.communityactioncollab.org/partner-sign-up/new"
           className="bg-yellow-400 text-black px-4 py-2 mt-4 rounded flex items-center"
+          target="_blank"
         >
           <span>Ready to join us?</span>
           <Image

@@ -45,7 +45,7 @@ const HomeBanner = () => {
         <h3 className="text-3xl font text-custom-blue mb-4">
           Leveraging Social Protection for a Resilient Bharat
         </h3>
-        <p className="text-gray-700 mb-6 ">
+        <p className="text-gray-700 mb-6 lato-regular">
           Setu unites organisations and stakeholders to enhance social
           protection systems across India, focusing on universal social security
           for all, especially the vulnerable—formal and informal workers, women,
@@ -54,8 +54,9 @@ const HomeBanner = () => {
           building resilience and promoting social inclusion.
         </p>
         <Link
-          href={""}
+          href="https://registration.communityactioncollab.org/partner-sign-up/new"
           className="bg-custom-yellow text-black px-4 py-2 mt-4 rounded flex items-center justify-center w-28 mx-auto md:mx-0"
+          target="_blank"
         >
           <span>Join us</span>
           <Image
