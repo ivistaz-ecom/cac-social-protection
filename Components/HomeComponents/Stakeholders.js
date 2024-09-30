@@ -14,7 +14,7 @@ const Stakeholders = () => {
 
         <div className="w-auto">
           <Image
-            src="/images/stakeholders-2.svg"
+            src="/images/stakeholders.svg"
             alt="Social Protection"
             width={600}
             height={400}
