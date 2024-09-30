@@ -17,9 +17,9 @@ const GetInvolved = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-start h-full text-center text-white px-4">
-        <h1 className="text-5xl md:text-9xl font-bold absolute md:-top-5">
+        <div className="text-5xl md:text-9xl font-bold absolute md:-top-5">
           Get Involved
-        </h1>
+        </div>
         <div className="py-10 md:pt-28">
           <p className="py-4 max-w-2xl text-lg font-light text-white/70">
             Whether you&apos;re a social impact organisation, investor, or
