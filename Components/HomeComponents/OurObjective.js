@@ -18,7 +18,7 @@ const Objectives = () => {
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="/images/our-object.jpeg"
+          src="/images/our-object-1.svg"
           alt="Our Objectives Background"
           layout="fill"
           objectFit="cover"
