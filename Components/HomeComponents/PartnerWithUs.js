@@ -35,7 +35,7 @@ const PartnerWithUs = () => {
                 <h3 className="text-lg md:text-xl font-semibold p-3 bg-custom-blue text-white inline-block">
                   {item.title}
                 </h3>
-                <p className="text-black mt-2 text-sm md:text-base">
+                <p className="text-black mt-2 md:text-base">
                   {item.text}
                 </p>
               </div>
@@ -45,7 +45,7 @@ const PartnerWithUs = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center py-5 text-center text-black">
-        <p className="text-xl ">
+        <p className="text-xl px-4">
           Together, we can create a stronger social safety net and make a real,
           lasting difference.
         </p>

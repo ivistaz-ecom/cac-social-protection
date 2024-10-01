@@ -39,10 +39,10 @@ const Objectives = () => {
           <div className="space-y-4 md:space-y-6">
             {objectivesData.map((objective, index) => (
               <div key={index}>
-                <h3 className="bg-custom-yellow text-black p-2 md:p-3 text-base sm:text-lg md:text-xl font-bold mb-1 md:mb-2">
+                <h3 className="bg-custom-yellow text-black p-2 md:p-3 text-xl font-bold mb-1 md:mb-2">
                   {objective.title}
                 </h3>
-                <p className="text-gray-200 text-xs sm:text-sm md:text-base mt-2">
+                <p className="text-gray-200 mt-2">
                   {objective.content}
                 </p>
               </div>

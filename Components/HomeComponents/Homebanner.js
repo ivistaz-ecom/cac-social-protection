@@ -26,7 +26,7 @@ const HomeBanner = () => {
       {/* Grandma Image */}
       <div className="relative z-10 md:w-1/3 w-full flex justify-center md:ml-32">
         <Image
-          src="/images/grandma-image.svg"
+          src="/images/setu-banner.svg"
           alt="Grandma"
           className="object-cover max-h-[600px]"
           width={350} 
