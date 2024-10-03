@@ -21,8 +21,8 @@ export const videos = [
     },
     {
       articleImg: "/images/article-img.svg",
-      imageTitle: "Catalyst Management Services (CMS) Partners with Piramal Foundation to Advance the Ayushman Digital Bharat Mission",
-      articleUrl: "https://aninews.in/news/business/catalyst-management-services-cms-partners-with-piramal-foundation-to-advance-the-ayushman-digital-bharat-mission20240913164203/",
+      imageTitle: "CMS partners with Piramal Foundation to advance Ayushman Digital Bharat Mission",
+      articleUrl: "https://government.economictimes.indiatimes.com/news/healthcare/cms-partners-with-piramal-foundation-to-advance-ayushman-digital-bharat-mission/113339365",
     },
   ];
 
